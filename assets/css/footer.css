@@ -1,0 +1,59 @@
+/* ==========================
+   FOOTER
+========================== */
+
+.cv-footer {
+    max-width: 1160px;
+    min-height: 75px;
+    margin: 0 auto;
+
+    background-color: #17abb3;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+    padding: 12px;
+}
+
+/* Réseaux sociaux */
+
+a {
+    max-width: 25px;
+    border: none;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 22px;
+    border-image: none;
+    text-decoration: none;
+    max-width: 25px;
+
+    transition: opacity 0.3s ease;
+}
+
+/* Effet au survol */
+
+.social-links a:hover {
+    opacity: 0.6;
+}
+
+/* Date de mise à jour */
+
+.update-date {
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+} 
